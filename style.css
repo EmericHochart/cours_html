@@ -23,6 +23,8 @@ h1 em
 }
 p
 {
+	text-decoration: overline;
+	text-align: justify;
 	font-size: 1.3em;
 	font-style: italic;
 	font-weight: bold;
@@ -39,4 +41,12 @@ p
     font-weight: normal;
     font-style: normal;
 
+}
+.flottant 
+{
+	float: left;
+}
+.autre 
+{
+	clear: left;
 }
