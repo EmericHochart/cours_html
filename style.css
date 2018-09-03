@@ -11,3 +11,13 @@ h1, p
 {
 	color:green;
 }
+*
+{ color:black; }
+h1 + p
+{
+	color: red;
+}
+h1 em
+{
+	color: pink;
+}
