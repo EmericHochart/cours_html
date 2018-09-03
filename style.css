@@ -24,5 +24,17 @@ h1 em
 p
 {
 	font-size: 1.3em;
-	font-family: Impact, "Arial Black", Arial, Verdana;
+	font-family: 'ambleregular', Impact, "Arial Black", Arial, Verdana;
+}
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
