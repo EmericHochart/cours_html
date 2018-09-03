@@ -1,4 +1,13 @@
-p
+h1, p
+{
+	font-weight: bold;
+	/* Commentaires */
+}
+.introduction
 {
 	color:blue;
+}
+#introduction
+{
+	color:green;
 }
