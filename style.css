@@ -24,6 +24,7 @@ h1 em
 p
 {
 	font-size: 1.3em;
+	font-style: italic;
 	font-family: 'ambleregular', Impact, "Arial Black", Arial, Verdana;
 }
 @font-face {
