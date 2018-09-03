@@ -1,4 +1,4 @@
-h1, p
+h1
 {
 	font-weight: bold;
 	/* Commentaires */
@@ -20,4 +20,9 @@ h1 + p
 h1 em
 {
 	color: pink;
+}
+p
+{
+	font-size: 1.3em;
+	font-family: Impact, "Arial Black", Arial, Verdana;
 }
