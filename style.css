@@ -1,18 +1,27 @@
+body 
+{
+	background-image: url("images/montagne.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
 h1
 {
 	font-weight: bold;
+	opacity: 0.6;
+	background-color: blue;
 	/* Commentaires */
 }
 .introduction
 {
-	color:blue;
+	color: blue;
 }
 #introduction
 {
-	color:green;
+	color: green;
 }
 *
-{ color:black; }
+{ color: black; }
 h1 + p
 {
 	color: red;
@@ -23,6 +32,8 @@ h1 em
 }
 p
 {
+	
+	color: #FF0000;
 	text-decoration: overline;
 	text-align: justify;
 	font-size: 1.3em;
