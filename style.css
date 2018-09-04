@@ -7,8 +7,12 @@ body
 
 h1
 {
+	border-left: 3px red dotted;
+	border-radius: 20px;
+	box-shadow: 6px 6px 5px black;
+	text-shadow: 4px 4px 5px white;
 	font-weight: bold;
-	opacity: 0.6;
+	opacity: 1;
 	background-color: blue;
 	/* Commentaires */
 }
@@ -32,7 +36,6 @@ h1 em
 }
 p
 {
-	
 	color: #FF0000;
 	text-decoration: overline;
 	text-align: justify;
@@ -60,4 +63,18 @@ p
 .autre 
 {
 	clear: left;
+}
+a:hover 
+{
+	color: green;
+}
+
+p:hover 
+{
+	border-left: 3px solid black ;
+}
+
+a:visited 
+{
+	color: grey;
 }
