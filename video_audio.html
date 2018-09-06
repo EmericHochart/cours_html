@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vidéo et Audio</title>
+</head>
+<body>
+
+	<p>
+		<audio src="hype_home.mp3" controls autoplay loop></audio>
+		<!-- controls pour afficher les contrôles lecture pause etc
+			 autoplay à utilsier avec parcimonie lancera dès la venue le fichier audio
+			 loop le jouera en boucle	
+		-->
+		<audio controls autoplay loop>
+			<source src="hype_home.mp3">
+			<source src="hype_home.ogg">	
+		</audio>
+		<!-- Une autre manière où cette fois le navigateur va sélectionner la source qui convient-->
+	
+		<video src="sintel.mp4" controls loop autoplay width="" height="" poster=""></video>
+		<!-- Même principe avec en plus la taille et poster pour l'image affichée avant lancement de la vidéo -->
+
+
+
+	</p>
+</body>
+</html>
