@@ -1,7 +1,11 @@
 /* Toutes les cellules du tableau */
 td
 {
-	border: 1px black solid;
+	border: 1px black solid; /* bordure 1px noir continue*/
+}
+table
+{
+	border-collapse: collapse; /* On fusionne les bordures*/
 }
 
 
