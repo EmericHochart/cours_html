@@ -7,10 +7,71 @@
 </head>
 <body>
 
-
+	<form method="post" action="traitement.php"> <!-- post ou get mais post à 99% -->
 		
+		<p>
+			<label for="pseudo">Votre pseudo</label>
+			<input type="text" name="pseudo" id="pseudo" maxlength="15"  placeholder="Saisissez votre nom" /> 
+			<!-- chaque champ doit avoir un nom différent pour le distinguer, l'id va être rattachée au label, à la place de placeholder on peut mettre value qui remplira avec une valeur par défaut : value="anomyme" par exemple -->
+		</p>
+		<p>	
+			<input type="password" name="motdepasse" />
+			<textarea rows="5" cols="10">Le texte équivalent à un value pour les inputs</textarea>
+		</p>
+		<p>	
+			<input type="email" name="mail" autofocus="" required="" />  <!-- directement focus dans ce champ avec autofocus et obligation de remplri avec required-->
+			<input type="url" name="adresse web" />
+			<input type="tel" name="téléphone" />
+		</p>
+		<p>	
+			<input type="number" name="nombre" min="10" max="30" step="5" />
+			<input type="range" name="idemnombre" min="10" max="30" step="5" />
+		</p>
+		<p>	
+			<input type="color" name="couleur" />
+			<input type="date" name="date" />
+			<input type="search" name="recherche" />
+		</p>
+		
+		<fieldset> <!-- regroupement via fieldset et description via legend-->
+			<legend>Vos coordonnées</legend>
 
-	</table>
+		<p>	
+			<input type="checkbox" name="caseacocher" checked /> <!-- case cochée avec checked-->
+		</p>
+		<p>
+			<input type="radio" name="continent" value="Europe" id="europe" /><label for="europe">Europe</label>
+			<input type="radio" name="continent" value="Afrique" id="afrique" /><label for="afrique">Afrique</label>
+			<input type="radio" name="continent" value="Asie" id="asie" /><label for="asie">Asie</label>
+		</p>
+		<p>
+			<input type="radio" name="age" value="18-34" id="jeune" /><label for="jeune">18-34 ans</label>
+			<input type="radio" name="age" value="35-65" id="adulte" /><label for="adulte">35-65 ans</label>
+			<input type="radio" name="age" value="66+" id="senior" /><label for="senior">+ de 66 ans</label>
+		</p>
+
+		<p>
+			<label for="pays">Dans quel pays habité vous ?</label>
+			<select name="pays" id="pays">
+				<option value="france">France</option>
+				<option value="espagne">Espagne</option>
+				<option value="italie">Italie</option>
+				<option value="allemagne">Allemagne</option>
+				<option value="belgique" selected>Belgique</option> <!-- Option pré-sélectionnée dans la liste avec selected-->
+				<option value="portugal">Portugal</option>
+			</select>
+		</p>
+
+		</fieldset>
+
+		<input type="submit" name="soumission" value="Envoyer" /> <!-- Bouton d'envoi pour traitement-->
+
+
+
+
+	</form>
+
+
 
 </body>
 </html>
